@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+
+ </head>
+<body>
+<nav class="navbar navbar-expand-sm" id="navbar">
+  <a href="index.html" class="navbar-brand" id="logo"><img src="web_images/logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <span><i class="fa-solid fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="menu.html" class="nav-link">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a href="order.html" class="nav-link">Order</a>
+      </li>
+      <li class="nav-item">
+        <a href="#review.html" class="nav-link">Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Replace the disabled search section with an active search section -->
+    <div class="d-flex">
+      <input type="text" class="form-control me-2" placeholder="Search" aria-label="Search">
+      <button type="button" id="btn" class="btn" style="background-color: #e53937; color: white;">Search</button>
+    </div>
+
+  </div>
+</nav>
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Claim Best Offer <br> On Fast <span>Food</span> & <span>Restaurant</span></h3>
+    <p>Bringing you the best food from your Favourite Restaurant, anytime, anywhere, beacause every meal should be a great experience</p>
+    <a href="#our-menu" id="home-btn">Our Menu</a>
+  </div>
+  <div class="img">
+    <img src="web_images/image 46.png" alt="">
+  </div>
+</section>
+<div class="top-section">
+  <h5>WHAT WE SERVE</h5>
+  <h3>Your Favourite Food <br> Delivery Partner</h3>
+  <div class="row">
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/img1.png" alt="">
+        <div class="card-body">
+        <h1>Easy To Order</h1>
+        <p>You only need a few steps in <br> ordering food</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/img2.png" alt="">
+        <div class="card-body">
+        <h1>Fastest Delivery</h1>
+        <p>Delivery that is always ontime <br> even faster</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/img3.png" alt="">
+        <div class="card-body">
+        <h1>Best Quality</h1>
+        <p>Not only fast for us quality is also <br> number one</p>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<section class="menu" id="menu">
+  <h3>Menu</h3>
+  <h2>Delicious Dishes Is Here <i class="fa-solid fa-arrow-down"></i></h2>
+
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/Mangalorean_Chicken.png" alt="">
+        <div class="card-body">
+          <h3>M Chicken</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$20 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/Garlic_Fried.png" alt="">
+        <div class="card-body">
+          <h3>Garlic Fried</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$30 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/Grilled_beef_steak.png" alt="">
+        <div class="card-body">
+          <h3>G Beef Steak</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$120 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/Pineapple_Fried_Rice.png" alt="">
+        <div class="card-body">
+          <h3>Fried Rice</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$200 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/Grilled_pork_ribs.png" alt="">
+        <div class="card-body">
+          <h3>Pork Ribs</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$300 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/crispy_fried.png" alt="">
+        <div class="card-body">
+          <h3>Crispy Fried</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$10 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/sushi__japanese.png" alt="">
+        <div class="card-body">
+          <h3>Sushi Japanes</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$150 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/Lyulya_kebab.png" alt="">
+        <div class="card-body">
+          <h3>Lyulya Kebab</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$250 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+<section class="menu" id="menu">
+  <h3>Our Menu</h3>
+
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/burger.png" alt="">
+        <div class="card-body">
+          <h3>Burger</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$60 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/fasr food.png" alt="">
+        <div class="card-body">
+          <h3>Fast Food</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$50 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/rice.png" alt="">
+        <div class="card-body">
+          <h3>Rice Dishe</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$120 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/pizza.png" alt="">
+        <div class="card-body">
+          <h3>Pizza</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>$30 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+</section>
+<section class="order" id="order">
+  <div class="heading">Order Your <span>Food</span></div>
+
+  <div class="row">
+    <div class="col-md-5 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/img1.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-7 py-3 py-md-0">
+      <form action="#" id="orderForm">
+
+        <div class="mb-3 mt-3">
+          <input type="text" class="form-control" id="name" placeholder="Enter Name" pattern="[A-Za-z ]+" title="Please enter only letters" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="tel" class="form-control" id="number" placeholder="Enter Number" pattern="[0-9]+" title="Please enter only numbers" required>
+        </div>
+
+        <textarea class="form-control" id="comment" rows="5" name="text" placeholder="Enter Address" required></textarea>
+        
+        <!-- Order Summary Section -->
+        <div class="order-summary mt-4">
+          <h4>Order Summary</h4>
+          <div class="order-items">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="burger" id="burger">
+              <label class="form-check-label" for="burger">
+                Burger - $60
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="pizza" id="pizza">
+              <label class="form-check-label" for="pizza">
+                Pizza - $30
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="friedRice" id="friedRice">
+              <label class="form-check-label" for="friedRice">
+                Fried Rice - $200
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="sushi" id="sushi">
+              <label class="form-check-label" for="sushi">
+                Sushi - $150
+              </label>
+            </div>
+          </div>
+          
+          <div class="order-total mt-3">
+            <p>Subtotal: <span id="subtotal">$0</span></p>
+            <p>Delivery Fee: <span id="deliveryFee">$5</span></p>
+            <p>Tax: <span id="tax">$0</span></p>
+            <p class="fw-bold">Total: <span id="total">$0</span></p>
+          </div>
+        </div>
+        
+        <!-- Payment Section -->
+        <div class="payment-section mt-4">
+          <h4>Payment Method</h4>
+          
+          <div class="payment-options">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paymentMethod" id="creditCard" value="creditCard" checked>
+              <label class="form-check-label" for="creditCard">
+                <i class="fa-solid fa-credit-card me-2"></i> Credit Card
+              </label>
+            </div>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="paypal">
+              <label class="form-check-label" for="paypal">
+                <i class="fa-brands fa-paypal me-2"></i> PayPal
+              </label>
+            </div>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paymentMethod" id="cash" value="cash">
+              <label class="form-check-label" for="cash">
+                <i class="fa-solid fa-money-bill-wave me-2"></i> Cash on Delivery
+              </label>
+            </div>
+          </div>
+          
+          <!-- Credit Card Details (shown only when credit card is selected) -->
+          <div id="creditCardDetails" class="mt-3">
+            <div class="mb-3">
+              <label for="cardName" class="form-label">Name on Card</label>
+              <input type="text" class="form-control" id="cardName" pattern="[A-Za-z ]+" title="Please enter only letters" placeholder="John Doe">
+            </div>
+            
+            <div class="mb-3">
+              <label for="cardNumber" class="form-label">Card Number</label>
+              <input type="text" class="form-control" id="cardNumber" pattern="[0-9]+" title="Please enter only numbers" placeholder="1234 5678 9012 3456" maxlength="16">
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="expiryDate" class="form-label">Expiry Date</label>
+                <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY" maxlength="5">
+              </div>
+              
+              <div class="col-md-6 mb-3">
+                <label for="cvv" class="form-label">CVV</label>
+                <input type="text" class="form-control" id="cvv" pattern="[0-9]+" title="Please enter only numbers" placeholder="123" maxlength="3">
+              </div>
+            </div>
+          </div>
+          
+          <!-- PayPal Details (hidden by default) -->
+          <div id="paypalDetails" class="mt-3" style="display: none;">
+            <p>You will be redirected to PayPal to complete your payment after submitting the order.</p>
+          </div>
+          
+          <!-- Cash on Delivery Details (hidden by default) -->
+          <div id="cashDetails" class="mt-3" style="display: none;">
+            <p>Please have the exact amount ready at the time of delivery.</p>
+          </div>
+        </div>
+
+        <button type="submit" class="order-btn mt-4">Place Order</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="review" id="review">
+  <div class="row">
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="web_images/review-img.png" alt="">
+      </div>
+    </div>
+
+    <div class="col-md-8 py-3 py-md-0" style="padding: 100px;">
+      <h3>WHAT THEY SAY</h3>
+      <h2>What Our Customers <br>Say About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, commodi maiores qui quasi tenetur doloremque!</p>
+      <h5><img src="web_images/pic-1.png" alt="" width="60px"><a href="#">John Cooper</a></h5>
+      <h5><img src="web_images/pic-2.png" alt="" width="60px"><a href="#">Elbert Neise</a></h5>
+      <div class="rating">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      
+      <!-- Added Review Submission Form -->
+      <div class="review-form mt-5">
+        <h3>Leave Your Review</h3>
+        <form id="reviewForm">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="reviewName" placeholder="Your Name" pattern="[A-Za-z ]+" title="Please enter only letters" required>
+          </div>
+          <div class="mb-3">
+            <select class="form-control" id="reviewRating" required>
+              <option value="">Select Rating</option>
+              <option value="5">5 Stars - Excellent</option>
+              <option value="4">4 Stars - Very Good</option>
+              <option value="3">3 Stars - Good</option>
+              <option value="2">2 Stars - Fair</option>
+              <option value="1">1 Star - Poor</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="reviewComment" rows="3" placeholder="Your Review" required></textarea>
+          </div>
+          <button type="submit" class="btn" style="background-color: #e53937; color: white;">Submit Review</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="heading">
+    Contact <span>us</span>
+  </div>
+  <div class="row">
+    <div class="col-md-5 py-3 py-md-0">
+      <h3>Let's Get In Touch</h3>
+      <p>Need help with your order?Our support team is here for you!</p>
+      <i class="fa-solid fa-phone"><span>1800180000</span></i><br><br>
+      <i class="fa-solid fa-envelope"><span>freshfood@gmail.com</span></i><br><br>
+      <i class="fa-solid fa-location-dot"><span>Nehru Place,New Delhi</span></i>
+    </div>
+
+    <div class="col-md-7 py-3 py-md-0">
+      <form action="#" id="contactForm">
+        <div class="mb-3 mt-3">
+          <input type="text" class="form-control" id="contactName" placeholder="Enter Name" pattern="[A-Za-z ]+" title="Please enter only letters" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="email" class="form-control" id="contactEmail" placeholder="Enter Email" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="tel" class="form-control" id="contactNumber" placeholder="Enter Number" pattern="[0-9]+" title="Please enter only numbers" required>
+        </div>
+
+
+         <textarea class="form-control" id="contactComment" rows="5" name="text" placeholder="Enter Address" required></textarea>
+
+         <button type="submit" class="order-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+</section>
+
+<footer id="footer">
+  <div class="f-content">
+    <div class="f-logo"><img src="web_images/logo.png" alt=""></div>
+    <p>By continuing past this page, you agree to our Terms
+       of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners</p>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  <br>
+  <div class="c-content">
+    &copy; 2015-2025 Fresh Food Ltd.All rights reserved.<br>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+  // Form validation for name fields (letters only)
+  document.addEventListener('DOMContentLoaded', function() {
+    // Order form validation
+    const orderForm = document.getElementById('orderForm');
+    if (orderForm) {
+      orderForm.addEventListener('submit', function(event) {
+        const nameInput = document.getElementById('name');
+        const numberInput = document.getElementById('number');
+        
+        // Validate name (letters only)
+        if (!/^[A-Za-z ]+$/.test(nameInput.value)) {
+          alert('Name should contain only letters');
+          event.preventDefault();
+          return false;
+        }
+        
+        // Validate number (numbers only)
+        if (!/^[0-9]+$/.test(numberInput.value)) {
+          alert('Phone number should contain only numbers');
+          event.preventDefault();
+          return false;
+        }
+        
+        // Validate credit card details if credit card payment is selected
+        if (document.getElementById('creditCard').checked) {
+          const cardName = document.getElementById('cardName');
+          const cardNumber = document.getElementById('cardNumber');
+          const expiryDate = document.getElementById('expiryDate');
+          const cvv = document.getElementById('cvv');
+          
+          if (!cardName.value || !/^[A-Za-z ]+$/.test(cardName.value)) {
+            alert('Please enter a valid name on card (letters only)');
+            event.preventDefault();
+            return false;
+          }
+          
+          if (!cardNumber.value || !/^[0-9]{16}$/.test(cardNumber.value)) {
+            alert('Please enter a valid 16-digit card number');
+            event.preventDefault();
+            return false;
+          }
+          
+          if (!expiryDate.value || !/^(0[1-9]|1[0-2])\/[0-9]{2}$/.test(expiryDate.value)) {
+            alert('Please enter a valid expiry date in MM/YY format');
+            event.preventDefault();
+            return false;
+          }
+          
+          if (!cvv.value || !/^[0-9]{3}$/.test(cvv.value)) {
+            alert('Please enter a valid 3-digit CVV');
+            event.preventDefault();
+            return false;
+          }
+        }
+        
+        alert('Order placed successfully! Thank you for your order.');
+      });
+      
+      // Order calculation
+      const orderItems = document.querySelectorAll('.order-items input[type="checkbox"]');
+      orderItems.forEach(item => {
+        item.addEventListener('change', calculateTotal);
+      });
+      
+      // Payment method toggle
+      const paymentMethods = document.querySelectorAll('input[name="paymentMethod"]');
+      paymentMethods.forEach(method => {
+        method.addEventListener('change', togglePaymentDetails);
+      });
+      
+      // Format expiry date input
+      const expiryDateInput = document.getElementById('expiryDate');
+      if (expiryDateInput) {
+        expiryDateInput.addEventListener('input', function(e) {
+          let value = e.target.value.replace(/\D/g, '');
+          if (value.length > 2) {
+            value = value.substring(0, 2) + '/' + value.substring(2, 4);
+          }
+          e.target.value = value;
+        });
+      }
+    }
+    
+    // Review form validation
+    const reviewForm = document.getElementById('reviewForm');
+    if (reviewForm) {
+      reviewForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const name = document.getElementById('reviewName').value;
+        const rating = document.getElementById('reviewRating').value;
+        const comment = document.getElementById('reviewComment').value;
+        
+        if (!/^[A-Za-z ]+$/.test(name)) {
+          alert('Name should contain only letters');
+          return false;
+        }
+        
+        alert('Thank you for your review! It will be published after moderation.');
+        reviewForm.reset();
+      });
+    }
+    
+    // Contact form validation
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(event) {
+        const nameInput = document.getElementById('contactName');
+        const numberInput = document.getElementById('contactNumber');
+        
+        // Validate name (letters only)
+        if (!/^[A-Za-z ]+$/.test(nameInput.value)) {
+          alert('Name should contain only letters');
+          event.preventDefault();
+          return false;
+        }
+        
+        // Validate number (numbers only)
+        if (!/^[0-9]+$/.test(numberInput.value)) {
+          alert('Phone number should contain only numbers');
+          event.preventDefault();
+          return false;
+        }
+      });
+    }
+  });
+  
+  // Calculate order total
+  function calculateTotal() {
+    let subtotal = 0;
+    
+    if (document.getElementById('burger').checked) subtotal += 60;
+    if (document.getElementById('pizza').checked) subtotal += 30;
+    if (document.getElementById('friedRice').checked) subtotal += 200;
+    if (document.getElementById('sushi').checked) subtotal += 150;
+    
+    const deliveryFee = 5;
+    const taxRate = 0.08; // 8% tax
+    const tax = subtotal * taxRate;
+    const total = subtotal + deliveryFee + tax;
+    
+    document.getElementById('subtotal').textContent = '$' + subtotal.toFixed(2);
+    document.getElementById('tax').textContent = '$' + tax.toFixed(2);
+    document.getElementById('total').textContent = '$' + total.toFixed(2);
+  }
+  
+  // Toggle payment details based on selected payment method
+  function togglePaymentDetails() {
+    const creditCardDetails = document.getElementById('creditCardDetails');
+    const paypalDetails = document.getElementById('paypalDetails');
+    const cashDetails = document.getElementById('cashDetails');
+    
+    // Hide all payment details first
+    creditCardDetails.style.display = 'none';
+    paypalDetails.style.display = 'none';
+    cashDetails.style.display = 'none';
+    
+    // Show the selected payment method details
+    if (document.getElementById('creditCard').checked) {
+      creditCardDetails.style.display = 'block';
+    } else if (document.getElementById('paypal').checked) {
+      paypalDetails.style.display = 'block';
+    } else if (document.getElementById('cash').checked) {
+      cashDetails.style.display = 'block';
+    }
+  }
+</script>
+
+</body>
+</html>
